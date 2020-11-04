@@ -4,6 +4,16 @@
 }
 
 /* Classes */
+.banner {
+    width: 100%;
+    height: 400px;
+}
+
+.titulo {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
 .equipe ul {
     list-style: none;
     text-align: center;
@@ -27,6 +37,43 @@
     padding-left: 50px;
 }
 
+.cec {
+    width: 350px; 
+    height: 150px;
+    margin-left: 160px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 @media screen and (max-width: 767px) {
-    
+    .equipe img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    .equipe li {
+        display: inline-block;
+        padding-left: 0px;
+    }
+
+    .equipe ul {
+        list-style: none;
+        text-align: center;
+        margin: 0;
+        padding-left: 0px;
+    }
+
+    .equipeBottom {
+        margin-top: 20px;
+        padding-left: 30px;
+    }
+
+    .cec {
+        width: 350px; 
+        height: 150px;
+        margin-left: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
