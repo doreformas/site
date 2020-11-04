@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Classes */
+.equipe ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.equipe li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.equipe img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.equipeBottom {
+    margin-top: 20px;
+    padding-left: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    
+}
